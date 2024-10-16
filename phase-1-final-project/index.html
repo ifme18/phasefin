@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Emoji</title>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+  <h1>Random Emoji</h1>
+  
+  <!-- Container to display random emoji -->
+  <div id="emojiContainer">🤔</div>
+  
+  <!-- Button to get random emoji -->
+  <button id="randomEmojiBtn">Get Random Emoji</button>
+  
+  <!-- Dropdown to select emoji category -->
+  <div id="emojiCategory">
+    <label for="categorySelect">Select Emoji Category: </label>
+    <select id="categorySelect">
+      <option value="smileys-and-people">Smileys and People</option>
+      <option value="animals-and-nature">Animals and Nature</option>
+      <option value="food-and-drink">Food and Drink</option>
+      <option value="travel-and-places">Travel and Places</option>
+      <option value="activities">Activities</option>
+      <option value="objects">Objects</option>
+      <option value="symbols">Symbols</option>
+      <option value="flags">Flags</option>
+    </select>
+  </div>
+  
+  <!-- Container to display the whole list of emojis -->
+  <div id="emojiListContainer" style="margin-top: 20px;"></div>
+
+  <!-- Add event listeners and fetch emoji from the API -->
+  <script src="./index.js" defer></script>
+</body>
+</html>
+

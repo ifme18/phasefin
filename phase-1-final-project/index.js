@@ -1,6 +1,6 @@
 // Fetching emoji data from the db.json file
 function fetchEmojis() {
-  return fetch('db.json')  // Fetch the emoji data from the JSON file
+  return fetch('https://ifme18.github.io/jsonfile/db.json')  // Fetch the emoji data from the JSON file
     .then((response) => response.json())
     .catch((error) => console.error('Error fetching emoji data:', error));
 }

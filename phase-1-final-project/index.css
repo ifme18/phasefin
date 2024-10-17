@@ -1,12 +1,12 @@
 
 body {
-    background-color: white;
-    color: black;
+    background-color: purple;
+    color: white;
     transition: background-color 0.3s, color 0.3s;
 }
 .purple-theme {
-    background-color: purple;
-    color: white;
+    background-color: white;
+    color: black;
 }
  #emojiContainer {
     font-size: 100px;
